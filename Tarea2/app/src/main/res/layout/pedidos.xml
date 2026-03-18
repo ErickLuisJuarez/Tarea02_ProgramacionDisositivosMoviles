@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFDE7"
+    android:gravity="top|center_horizontal">
+
+    <TextView
+        android:text="@string/men_del_restaurante"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/selecciona_tu_comida"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/btnPizza"
+            android:layout_width="28dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@drawable/borde"
+            android:contentDescription="@string/pizza"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pizza" />
+
+        <ImageButton
+            android:id="@+id/btnHamburguesa"
+            android:layout_width="28dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@drawable/borde"
+            android:contentDescription="@string/hamburguesa"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hamburguesa" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <ImageButton
+                android:id="@+id/btnTacos"
+                android:layout_width="28dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/borde"
+                android:contentDescription="@string/tacos"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tacos" />
+
+            <ImageButton
+                android:id="@+id/btnRefresco"
+                android:layout_width="28dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/borde"
+                android:contentDescription="@string/refresco_25"
+                android:scaleType="fitCenter"
+                android:src="@drawable/refresco" />
+        </LinearLayout>
+
+    <!-- FILA 3 -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <ImageButton
+                android:id="@+id/btnPapas"
+                android:layout_width="28dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/borde"
+                android:contentDescription="@string/papas_50"
+                android:scaleType="fitCenter"
+                android:src="@drawable/papas" />
+
+            <ImageButton
+                android:id="@+id/btnFlan"
+                android:layout_width="28dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:background="@drawable/borde"
+                android:contentDescription="@string/flan_40"
+                android:scaleType="fitCenter"
+                android:src="@drawable/flan" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#2E7D32"
+            android:padding="12dp"
+            android:text="@string/ver_pedido"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

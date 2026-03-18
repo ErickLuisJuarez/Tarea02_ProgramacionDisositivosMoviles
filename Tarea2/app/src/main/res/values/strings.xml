@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+    <string name="regresar">Regresar</string>
+    <string name="aqu_aparecer_tu_pedido">Aquí aparecerá tu pedido</string>
+    <string name="resumen_de_compra">🛒 Resumen de compra</string>
+    <string name="ver_pedido">Ver pedido</string>
+    <string name="tacos">Tacos $60</string>
+    <string name="hamburguesa">Hamburguesa $80</string>
+    <string name="pizza">Pizza $100</string>
+    <string name="selecciona_tu_comida">Selecciona tu comida:</string>
+    <string name="men_del_restaurante">🍔 Menú del Restaurante</string>
+    <string name="refresco_25">Refresco $25</string>
+    <string name="flan_40">Flan $40</string>
+    <string name="papas_50">Papas $50</string>
+    <string name="finalizar_pedido">✔ Finalizar pedido</string>
+    <string name="total">Total: $0</string>
+</resources>
